@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Ecom</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+
+    
+    <!--    LOGO   -->
+    <link rel="shortcut icon" href="logo-white-removebg-preview.png" sizes="32x32" type="image/png" />
+    <link rel="shortcut icon" href="logo-black-removebg-preview.png" sizes="16x16" type="image/png" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        .vid{
+             padding: 0 10%;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            margin-bottom: 10px;
+            
+        }
+    
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <!---Header-->
+    <section class="header">
+    <nav>
+        
+        <div class="menu">
+            
+            <div class="nav-links" id="navLinks">
+            
+            <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li> <br>
+                
+                <li><a href="products.html">Deals</a></li> <br>
+                <li><a href="services.html">Premiums</a></li> <br>
+                
+                <li><a href="feedback.html">Feedback</a></li> <br>
+            </ul>
+            </div>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+    </nav>
+    
+    </section>
+    <!---Home Page-->
+    <div class="img"></div>
+    
+    <div class="center">
+        
+        <div class="title">Discover deals for the day</div>
+        <div class="sub_title">Free shipping on all orders</div>
+        <div class="btns">
+            <a href="whylic.html">
+                <button>Use Code</button>
+            </a>
+            <div class="break">
+                
+            </div>
+            <a href="agents.html">
+                <button>Welcome50</button>
+            </a>
+        </div>
+    </div>
+    <!--products of the day-->
+
+    <section class="second-page">
+    <section class="why">
+        <h1>Products of the day</h1>
+        <p>Buy affordable products at a discounted price</p>
+
+        <div class="row">
+            <div class="why-col">
+                <h3>Kids Clothes</h3>
+                <p>20% off </p> 
+                <img class="kid-pic" src="pic/kid-pic-1.png" alt="kid-picture" >
+                <p>Starts from Rs. 399</p>
+            </div>
+            <div class="why-col">
+                <h3>Footwear</h3>
+                <p>43% off </p>
+                <img src="pic/shoe-pic-1.png" alt="shoe">
+                <p>Starts from Rs. 899</p>
+            
+            </div>
+            <div class="why-col">
+                <h3>Gadgets</h3>
+                <p>Flat 15% off</p>
+                <img src="pic/gadget-pic-1.png" alt="gadget">
+                <p>Starts from Rs. 999</p>
+            
+            </div>
+            
+
+        </div>
+    
+    <div class="btns">
+        <a href="products.html">
+            <button>View More</button>
+        </a>
+    </div>
+    <br>
+    <section class="why" >
+        <h1>Premium products</h1>
+        <p>Buy our high quality products </p>
+    
+        <div class="row" >
+            <div class="why-col">
+                <h3>Jewellery</h3>
+                <p>11% off </p>
+                <img  src="pic/jewellery-pic-1.png" alt="jewellery-picture">
+                <p>Starts from Rs. 999</p>
+    
+            </div>
+            <div class="why-col">
+                <h3>Furniture</h3>
+                <p>16% off </p>
+                <img src="pic/furniture-pic-1.png" alt="Furniture">
+                <p>Starts from Rs. 2999</p>
+    
+            </div>
+            <div class="why-col">
+                <h3>Pet food</h3>
+                <p>Flat 15% off</p>
+                <img src="pic/petfood-pic-1.png" alt="pet food">
+                <p>Starts from Rs. 299</p>
+    
+            </div>
+    
+    
+        </div>
+    
+        <div class="btns">
+            <a href="services.html">
+                <button>View More</button>
+            </a>
+        </div>
+
+    </section>
+    <br><br>
+    </section>
+
+
+    <footer class="footer">
+        <a href="https://www.linkedin.com/in/mridhula-m-5a8aa8255/" target="_blank"><i class="fab fa-linkedin" ></i></a>
+        <a href="https://github.com/mridhula03" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
+        <a href="mailto:mridhula3603@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+        <!--<a href="https://www.instagram.com/" target="_blank">Instagram</a><br>
+        <i style="size: 2px;" class="fa fa-copyright fa-xs" aria-hidden="true"></i>-->
+        <br>
+        Created by Mridhula
+    </footer>
+</body>
+
+
+<!--Javascript for Toggle Menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</html>

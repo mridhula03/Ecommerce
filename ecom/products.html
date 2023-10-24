@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecom</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style2.css">
+
+    <!-- custom js file link  -->
+    <script src="script2.js" defer></script>
+
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+
+            <div class="menu">
+               
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li> <br>
+                    
+                        <li><a href="products.html">Deals</a></li> <br>
+                        <li><a href="services.html">Premiums</a></li> <br>
+                    
+                        <li><a href="feedback.html">Feedback</a></li> <br>
+                    </ul>
+                </div>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    </section>
+
+    <div class="container">
+        <br><br>
+        <h3 class="title"> Deals for the day </h3>
+
+        <div class="products-container">
+
+            <div class="product" data-name="p-1">
+
+                <h3>Kids Clothes</h3>
+                <div class="price">20% off</div>
+                <img src="pic/kid-pic-1.png" alt="">
+            </div>
+
+            <div class="product" data-name="p-2">
+
+                <h3>Footwear</h3>
+                <div class="price">43% off</div>
+                <img src="pic/shoe-pic-1.png" alt="shoe">
+            </div>
+
+            <div class="product" data-name="p-3">
+
+                <h3>Gadgets</h3>
+                <div class="price">15% off</div>
+                <img src="pic/gadget-pic-1.png" alt="gadget">
+            </div>
+
+            <div class="product" data-name="p-4">
+
+                <h3>Utensils</h3>
+                <div class="price">10% off</div>
+                <img src="pic/gadget-pic-1.png" alt="">
+            </div>
+
+            <div class="product" data-name="p-5">
+
+                <h3>Toiletries</h3>
+                <div class="price">3% off</div>
+                <img src="pic/toiletries-pic-1.jpg" alt="">
+            </div>
+
+            <div class="product" data-name="p-6">
+
+                <h3>Swimwear</h3>
+                <div class="price">9% off</div>
+                <img src="pic/kid-pic-1.png" alt="">
+            </div>
+            <div class="product" data-name="p-7">
+
+                <h3>Mobile phone </h3>
+                <div class="price">33% off</div>
+                <img src="pic/phone-pic-1.png" alt="">
+            </div>
+            
+
+        </div>
+
+    </div>
+
+    <div class="products-preview">
+
+        <div class="preview" data-target="p-1">
+            <i class="fas fa-times"></i>
+            <img src="pics/lic-jeevan-umang.png" alt="">
+            <h3>Jeevan Umang</h3>
+            <p>8% Lifetime guaranteed Pension Plan <br>
+                For Spouse - Pension for Spouse (or) One time Settlement <br>
+                A Great Asset Creation Plan<br></p>
+            <div class="price">(3 generation plan)</div>
+            <div class="buttons">
+                <a href="https://licindia.in/documents/20121/105345/LIC_Jeevan_Umang_Brochure_9-inch-x-8-inch_Eng%282021%29.pdf/cd7f285a-173a-5e79-b028-b9207040d9d9?t=1668773503681" class="buy">View more</a>
+            </div>
+        </div>
+
+        <div class="preview" data-target="p-2">
+            <i class="fas fa-times"></i>
+            <img src="pics/JEEVAN-LABH.jpg" alt="JEEVAN-LABH">
+            <h3>Jeevan Labh </h3>
+
+            <p>Limited Paying Term 10, 15 & 16 yrs <br>
+                Low Premium & High Returns<br></p>
+            <div class="price">(Age 8-59 Years)</div>
+            <div class="buttons">
+                <a href="https://licindia.in/documents/20121/97277/LIC_Jeevan-Labh_Brochure_9-inch-x-8-inch_Eng-%281%29+%281%29.pdf/e78573c4-cf09-be34-7b3d-5a6279de59d4?t=1681117060144" class="buy">View more</a>
+            </div>
+        </div>
+
+        <div class="preview" data-target="p-3">
+            <i class="fas fa-times"></i>
+            <img src="pics/jeevan-anand.jpg" alt="">
+            <h3>Jeevan Anand </h3>
+
+
+            <p>Offers protection and savings. Provides financial protection against death throughout the lifetime of policyholder. Lump sum at end of term in case of survival</p>
+            <div class="price">(Age 18-50 years)</div>
+            <div class="buttons">
+                <a href="https://licindia.in/documents/20121/97186/Lic-leaflet-jeevan-Anand-4-5x8-inches-wxh-DEC-2020-%281%29.pdf/868b6b1d-69af-0528-bcbc-e2eec90f8bde?t=1668668117034" class="buy">View more</a>
+            </div>
+        </div>
+
+        <div class="preview" data-target="p-4">
+            <i class="fas fa-times"></i>
+            <img src="pics/jeevan-tarun.jpg" alt="jeevan-tarun">
+            <h3>Jeevan Tarun</h3>
+
+            <p>Limited premium payment plan specially designed to meet the educational and other needs of growing children.</p>
+            <div class="price">(Age 0-12 years)</div>
+            <div class="buttons">
+                <a href="https://licindia.in/documents/20121/106020/934-Sales-Brochure-Jeevan-Tarun+%281%29.pdf/60a90399-b615-438b-a5e7-3d395a5a947f?t=1681125320015" class="buy">View more</a>
+            </div>
+        </div>
+
+        <div class="preview" data-target="p-5">
+            <i class="fas fa-times"></i>
+            <img src="pics/jeevan-lakshaya.png" alt="">
+            <h3>Jeevan Lakshaya</h3>
+
+            <p>Annual Income benefit that may help to fulfill
+            the needs of the family, primarily for the benefit of children, in case
+            of  death of Policyholder</p>
+            <div class="price">(18 To 50 Years)</div>
+            <div class="buttons">
+                <a href="https://licindia.in/documents/20121/97250/933-Sales-Brochure-Jeevan-Lakshya.pdf/9189c064-7567-d3a0-5a80-f6d607db2ab0?t=1668668742758" class="buy">View more</a>
+            </div>
+        </div>
+
+        <div class="preview" data-target="p-6">
+            <i class="fas fa-times"></i>
+            <img src="pics/children-moneyback.png" alt="">
+            <h3>Children Moneyback</h3>
+
+            <p>Designed
+            to meet the educational, marriage and other needs of growing children
+            through Survival Benefits</p>
+            <div class="price">(Age 0-12 years)</div>
+            <div class="buttons">
+                <a href="https://licindia.in/documents/20121/105993/Final-Sales-Brochure-LIC-New-Childrens-Money-Back.pdf/e10122df-905a-b563-90fd-37726bcc2153?t=1668775047182" class="buy">View more</a>
+
+            </div>
+        </div>
+        <div class="preview" data-target="p-7">
+            <i class="fas fa-times"></i>
+            <img src="pics/jeevan-shanti.jpg" alt="">
+            <h3>Jeevan Shanthi</h3>
+        
+            <p>single premium plan wherein the Policyholder has an
+            option to choose between Single life and Joint life Deferred
+            annuity.
+            </p>
+            <div class="price">(30 To 79 Years)</div>
+            <div class="buttons">
+                <a href="https://licindia.in/documents/20121/102400/LIC-s-New-Jeevan-Shanti-Sales-Brochure.pdf/aa3f290c-b208-d65e-3871-7e048d28bea6?t=1681121889003" class="buy">View more</a>
+        
+            </div>
+        </div>
+        <div class="preview" data-target="p-8">
+            <i class="fas fa-times"></i>
+            <img src="pics/nivesh-plus.jpg" alt="">
+            <h3>Nivesh Plus/SIIP</h3>
+        
+            <p>Flexibility to choose the type of Sum Insured at
+            the inception and also have a choice of investing the premium in one of the
+            four types of investment funds available.</p>
+            <div class="price">(90 Days To 70 Years)</div>
+            <div class="buttons">
+                <a href="https://licindia.in/documents/20121/103490/LIC_Nivesh-Plus_Brochure_9-inch-x-8-inch_Eng_Single-pages-%282%29.pdf/4f26ca40-e214-7bc1-25ca-897b6f79110e?t=1668763450738" class="buy">View more</a>
+        
+            </div>
+        </div>
+
+    </div>
+    <footer class="footer">
+        <a href="https://www.linkedin.com/in/mridhula-m-5a8aa8255/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/mridhula03" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
+        <a href="mailto:mridhula3603@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+        <!--<a href="https://www.instagram.com/" target="_blank">Instagram</a>
+        Created by Mridhula--->
+    </footer>
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+<!--Javascript for Toggle Menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+
+</html>
