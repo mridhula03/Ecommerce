@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecom</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style2.css">
+
+    <!-- custom js file link  -->
+    <script src="script2.js" defer></script>
+
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+
+            <div class="menu">
+                
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li> <br>
+                    
+                        <li><a href="products.html">Deals</a></li> <br>
+                        <li><a href="services.html">Premiums</a></li> <br>
+                    
+                        <li><a href="feedback.html">Feedback</a></li> <br>
+                    </ul>
+                </div>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    </section>
+
+    <div class="container">
+        <br><br>
+        <h3 style="color: rgb(95, 63, 63);" class="title">Premium Products</h3>
+
+        <div class="products-container">
+
+            <div class="product" data-name="p-1">
+
+                <h3>Jewellery</h3>
+                <div class="price">11% off </div>
+                <img src="pic/jewellery-pic-1.png" alt="jewellery-picture">
+                
+            </div>
+
+            <div class="product" data-name="p-2">
+
+                <h3>Furniture</h3>
+                <div class="price">16% off </div>
+                <img src="pic/furniture-pic-1.png" alt="Furniture">
+                <div class="price"></div>
+            </div>
+
+            <div class="product" data-name="p-3">
+
+                <h3>Pet food</h3>
+                <div class="price">Flat 15% off</div>
+                <img src="pic/petfood-pic-1.png" alt="pet food">
+                <div class="price"></div>
+            </div>
+
+            <div class="product" data-name="p-4">
+
+                <h3>Sunglasses</h3>
+                <div class="price">20% off</div>
+                <img src="pic/sunglasses-pic-1.png" alt="">
+            </div>
+
+            <div class="product" data-name="p-5">
+
+                <h3>Mirrors</h3>
+                <div class="price">10% off</div>
+                <img src="pic/mirror-pic-1.jpg" alt="">
+            </div>
+
+            <div class="product" data-name="p-6">
+
+                <h3>Home Decoration</h3>
+                <div class="price">73% off</div>
+                <img src="pic/furniture-pic-1.png" alt="">
+            </div>
+           
+
+        </div>
+
+    </div>
+
+   
+
+    </div>
+    <footer class="footer">
+        <a href="https://www.linkedin.com/in/mridhula-m-5a8aa8255/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/mridhula03" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
+        <a href="mailto:mridhula3603@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+       
+    </footer>
+
+</body>
+<!--Javascript for Toggle Menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</html>
